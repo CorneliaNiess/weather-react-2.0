@@ -1,0 +1,25 @@
+.Overview {
+  background-color: #abd4cc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-height: 100px;
+  margin: 0 3px 3px 3px;
+  min-width: 500px;
+  max-width: 600px;
+}
+.Overview ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.Overview li {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+.Overview img {
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+}

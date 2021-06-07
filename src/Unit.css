@@ -1,0 +1,10 @@
+.Unit {
+  font-size: 30px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Unit .Conversion {
+  font-size: 15px;
+}
