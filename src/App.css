@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App h3 {
+  padding-bottom: 5px;
+}
+
 .App-header {
   background-color: #769d96;
   min-height: 100vh;
@@ -15,4 +19,5 @@
   margin: 30px auto;
   min-height: 600px;
   border-radius: 5px;
+  padding: 15px;
 }

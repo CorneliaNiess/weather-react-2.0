@@ -1,6 +1,5 @@
 .Search {
-  max-width: 1000px;
-  margin: 0px;
+  margin: 0 auto;
 }
 
 /*CCS for display of City after search */
@@ -21,6 +20,12 @@ ul {
   text-align: left;
   list-style: none;
   margin: 20px;
+}
+.Search nav {
+  max-width: 340px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 3px;
 }
 
 input {

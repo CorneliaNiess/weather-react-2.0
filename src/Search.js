@@ -57,17 +57,35 @@ export default function Search() {
   }
   return (
     <div className="Search">
-      <form>
+      {/*} <form>
         <input
           type="text"
           placeholder="Search for a city"
           className="form-control"
           onChange={updateCity}
         />
-        <button className="btn btn-primary" onClick={getUrl}>
+        <button className="btn btn-secondary" onClick={getUrl}>
           Search{" "}
-        </button>
-      </form>
+  </button> */}
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search for a city"
+            aria-label="Search"
+            onChange={updateCity}
+          />
+          <button
+            class="btn btn-outline-success my-2 my-sm-0 justify-content-between"
+            type="submit"
+            onClick={getUrl}
+          >
+            Search
+          </button>
+        </form>
+      </nav>
+
       {weather}
     </div>
   );

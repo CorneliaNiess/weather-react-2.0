@@ -19,7 +19,34 @@
 }
 
 .Overview img {
-  height: 30px;
+  height: 60px;
   padding: 0px;
   margin: 0px;
+  text-align: left;
+}
+.Overview table {
+  text-align: center;
+  padding-left: 30px;
+}
+.Overview td {
+  width: 100px;
+}
+
+.Overview #tdTemp {
+  font-size: 12px;
+}
+.Overview #tdFeels {
+  font-size: 8px;
+  color: grey;
+}
+
+.Overview #tdDescription {
+  font-size: 15px;
+  color: black;
+  width: 200px;
+  text-align: left;
+}
+
+.Overview #tdIcon {
+  height: 30px;
 }

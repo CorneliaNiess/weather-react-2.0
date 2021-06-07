@@ -7,21 +7,43 @@ export default function Overview(props) {
   return (
     <div className="Overview">
       <Date date={props.date} time="forecast" timing={props.timing} />
-      <ul>
+      {/*<ul>
         <li>
           {" "}
           <img
             src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`}
             alt="icon"
           />{" "}
-          <Unit celsius={props.temp} time="forecast" timing="3" /> Feels like:{" "}
-          {Math.round(props.feels)} ℃{" "}
+          <Unit celsius={props.temp} time="forecast" timing="3" />x Feels like:{" "}
+          {Math.round(props.feels)} ℃ x
           <span className="Description">
             {" "}
             <em> {props.description} </em>{" "}
           </span>
         </li>
-      </ul>
+      </ul> */}
+
+      <table>
+        <tr>
+          <td id="tdIcon">
+            <img
+              src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`}
+              alt="icon"
+            />{" "}
+          </td>
+          <td id="tdTemp">
+            <Unit celsius={props.temp} time="forecast" timing="3" />
+          </td>
+          <td id="tdDescription">
+            <span className="Description">
+              {" "}
+              <em> {props.description} </em>{" "}
+            </span>
+          </td>
+          {/*<td id="tdFeels">Feels like: {Math.round(props.feels)} ℃</td>*/}
+        </tr>
+      </table>
+
       {/*
      <ul>
         <li className="Details"> Windspeed: {Math.round(props.windspeed)} km/h </li>
